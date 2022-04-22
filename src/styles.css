@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fffdd0;
+}
+
+.head-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.all_news {
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.news {
+  max-width: 300px;
+  padding: 30px;
+  border: 1px double gray;
+  border-radius: 10px;
+  background-color: #fff8e7;
+}
+
+.news_source {
+  overflow-wrap: break-word;
+  font-size: 12px;
+}
